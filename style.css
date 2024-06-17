@@ -1,0 +1,143 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('designer_1.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50% 630px;
+}
+.navbar{
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    margin-left: 89px;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #505F98;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.navbar a.right{
+    float:right;
+    margin: auto 113px;
+
+}
+.navbar button{
+    background-color: #111B47;
+    padding: 4px 53px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.navbar a:hover:not(.right){
+    background-color: #ddd;
+    color: black;
+}
+.navbar button:hover{
+    background-color: #505F98;
+}
+.navbar .title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    font-weight: bolder;
+    color:#37447E;
+    font-size: large;
+    padding-right: 110px;
+  }
+
+  .heading1{
+    margin: 194px 656px 47px 110px;
+    color:#505F98;
+  }
+  .heading1 h1{
+    font-size:xx-large;
+    color:#091133;
+  }
+
+  .heading1 button{
+    padding: 7px 28px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 58px;
+  }
+  .purch button{
+    margin-right: 25px;
+    color: white;
+    background-color: #111B47;
+    border: 2px solid #091133;
+  }
+  .learn button{
+    background-color: none;
+    color: #091133;
+    border: 2px solid #091133;
+    padding: auto 10px;
+  }
+
+  .learn button:hover{
+    color: white;
+    background-color: #091133;
+  }
+
+  .purch button:hover{
+    color: #091133;
+    background-color: transparent;
+  }
+  .mg1{
+    margin-top:1px;
+    background-image: url('icon2.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 42% 100%;
+  }
+ .m12{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    color: black;
+ }
+ .m12 p{
+    color: rgb(82, 81, 81);
+ }
+ .m1,.m2{
+    flex:1;
+ }
+ .m2{
+    margin-left: 63px;
+ }
+  /* .m1{
+    margin-top: 74px;
+    padding-right: 123px;
+  } */
+
+  .heading3{
+    /* background-image: url('icon3.png');
+    background-repeat: no-repeat;
+    background-position: left; */
+    background-size: 42% 100%;
+    margin-right: 107px;
+    margin-left: 733px;
+    margin-top: -22%;
+  }
+  .m3 img{
+    margin-left: 7%;
+    height: 100%;
+    width: 37%;
+  }
+  .main-dv{
+    margin-top: 15%;
+  }
+  .main-dv2{
+    margin-top: 25%;
+  }
+  .main-dv3{
+    margin-top: 25%;
+  }
+  .purch1{
+    margin-left: 5px;
+  }
